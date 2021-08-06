@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('switzer.css');
+
+:root{
+    font-family: 'Switzer-Variable';
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style: none;
+    }
+}
+main{
+    width: 100%;
+    padding-left: 2em;
+}
+.layout{
+    width: 100%;
+}
+
+/*NAVBAR*/
+.navbar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 4em;
+    padding: 2em;
+
+    .nav-title{
+        line-height: 100%;
+        a{
+            font-size: 1.1em;
+            font-weight: 500;
+            color: #000;
+        }
+    }
+    .nav-items{
+        a{
+            color: #000;
+            margin: 0em 4em;
+            transition: 0.3s ease-in;
+            border-bottom: 2px solid #FFF;
+            &:hover{
+                border-bottom: 2px solid #000;
+                font-weight: 500;
+            }
+        }
+    }
+}
+/*NAVBAR*/
+
+/*INDEX*/
+.title-div{
+
+    .main-title{
+        font-size: 4em;
+        font-weight: 600;
+        line-height: 110%;
+        margin-top :2em;
+        margin-bottom: 1em;
+}
+    hr{
+        width: 99%;
+        height: 2px;
+        background: black;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .title-div{
+        .main-title{
+            font-size: 8em;
+        }
+    }  
+}
+/*INDEX*/
+/*FOOTER*/
+.footer{
+    padding-left: 2em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    h3{
+        font-size: 2em;
+        font-weight: 500;
+
+    }
+    li{
+        margin: 2em 0em;
+    }
+    p{
+        
+    }
+    .reserved-div{
+        height: 100%;
+        margin-top: auto;
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+}
+/*FOOTER*/
