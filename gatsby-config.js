@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Adriane Spence Portfolio`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Nikolai Whittaker`,
+      summary: `Ottawa based Web Developer.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A portfolio website showing the work of Adriane Spence, Industrial Designer.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,
